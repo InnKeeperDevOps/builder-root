@@ -1,3 +1,3 @@
 FROM centos:latest
 
-RUN sudo yum -y install buildah git
+RUN yum -y install buildah git
