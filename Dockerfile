@@ -1,3 +1,3 @@
-FROM debian:stretch
+FROM centos:latest
 
-RUN apt-get -y update && apt-get -y install buildah git aufs-tools
+RUN sudo yum -y install buildah git
