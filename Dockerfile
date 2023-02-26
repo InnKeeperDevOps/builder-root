@@ -1,3 +1,3 @@
-FROM archlinux:latest
+FROM fedora:latest
 
-RUN pacman update && pacman -S buildah git
+RUN dnf -y install buildah git
