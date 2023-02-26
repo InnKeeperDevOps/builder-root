@@ -1,3 +1,3 @@
 FROM archlinux:latest
 
-RUN pacman -S buildah git
+RUN pacman update && pacman -S buildah git
