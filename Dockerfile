@@ -1,3 +1,3 @@
-FROM centos:latest
+FROM archlinux:latest
 
-RUN yum -y install buildah git
+RUN pacman -S buildah git
