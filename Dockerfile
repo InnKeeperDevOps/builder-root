@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 
-RUN apt-get -y update && apt-get -y install buildah git aufs-util
+RUN apt-get -y update && apt-get -y install buildah git aufs-tools
